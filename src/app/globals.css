@@ -24,3 +24,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  background: #fff;
+  color: #02475b;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* globals.css or inside <style jsx global> if needed */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0; /* Tailwind gray-400 */
+  border-radius: 4px;
+}
